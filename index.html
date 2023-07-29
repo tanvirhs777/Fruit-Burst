@@ -334,8 +334,43 @@
   <!-- Four card Ends  -->
 
 
-  <button class="btn btn-error flex justify-center mx-auto text-center text-white  my-16">Shop Now</button>
 
+  <!-- Popup Button  -->
+
+  <button class="btn my-0 mx-auto flex bg-[#F85559] text-white my-12" onclick="my_modal_1.showModal()">Shop Now</button>
+  <dialog id="my_modal_1" class="modal">
+    <form method="dialog" class="modal-box justify-center grid w-96">
+      <div class="card w-80 bg-base-100 justify-center ">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Red Dragon</h2>
+          <p class="text-sm">Professional employees are there for you to pick amazing and fresh fruits.</p>
+
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div>
+
+          <div class="card-actions">
+            <button class="btn bg-[#F85559] text-white relative top-6">Buy Now</button>
+            <div class="modal-action">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </form>
+  </dialog>
+
+
+  <!-- Popup button end  -->
 
   <!-- Background img using tailwind  -->
 
@@ -410,6 +445,13 @@
     </div>
 
   </div>
+
+
+
+
+
+
+
 
 </body>
 
