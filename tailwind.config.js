@@ -2,16 +2,17 @@
 module.exports = {
   darkMode: 'media',
   content: ["./index.html"],
-  
+
   theme: {
     extend: {
       backgroundOpacity: {
         '10': '0.1',
         '20': '0.2',
-        '95': '50.95',},
-      
+        '95': '50.95',
+      },
+
       backgroundImage: {
-        'banner1': "url('/images/team.png')",
+        'hero': "url('../team.png')",
 
       },
       spacing: {
@@ -20,6 +21,5 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
-  themes: ["light",],
+  themes: ["light", ],
 }
-

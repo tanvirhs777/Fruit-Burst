@@ -2272,12 +2272,8 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-95 {
-  --tw-bg-opacity: 50.95;
-}
-
-.bg-banner1 {
-  background-image: url('/images/team.png');
+.bg-hero {
+  background-image: url('../team.png');
 }
 
 .bg-center {
@@ -2355,10 +2351,6 @@ html {
   text-transform: none;
 }
 
-.leading-3 {
-  line-height: .75rem;
-}
-
 .leading-9 {
   line-height: 2.25rem;
 }
@@ -2385,10 +2377,6 @@ html {
 
 .opacity-100 {
   opacity: 1;
-}
-
-.bg-blend-overlay {
-  background-blend-mode: overlay;
 }
 
 .bg-blend-darken {
